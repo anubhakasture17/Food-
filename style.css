@@ -1,0 +1,533 @@
+body{
+    overflow-x: hidden;
+}
+.logo img {
+    width: 72px;
+    height: 71px;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+    position: fixed;
+    left: 0;
+    height: 85px;
+    z-index: 99;
+    width: 100%;
+}
+.first{
+    background-image: url("first/bg-1");
+    background-size: 100% 100%;
+    height:123vh;
+    position: relative;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.first::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 123vh;
+    background-color: rgba(0, 0, 0, 0.468);
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.first-1 {
+    background-image: url("first/bg-2");
+    background-size: 100% 100%;
+    height: 123vh;
+    position: relative;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.first-1::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 123vh;
+    background-color: rgba(0, 0, 0, 0.468);
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.first-2{
+    background-image: url("first/background-3");
+    background-size: 100% 100%;
+    height:123vh;
+    position:relative;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.first-2::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 123vh;
+    background-color: rgba(0, 0, 0, 0.468);
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+    left: 0;
+}
+.owl-nav button.owl-next {
+    right: 0;
+}
+  
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+    display: none;
+}
+.owl-dots button.owl-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span{
+    font-size: 70px;    
+    position: relative;
+    top: -36px;
+}
+.owl-nav button:focus{
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: white;
+    /* position: absolute; */
+    /* top: 14em; */
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: white;
+}
+
+
+/* slide-1 */
+#carousel-1 .owl-nav button{
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+#carousel-1 .owl-nav button.owl-prev {
+    left: 0;
+}
+  #carousel-1 .owl-nav button.owl-next {
+    right: 0;
+}
+  
+#carousel-1 .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+#carousel-1 .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+#carousel-1 .owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+#carousel-1 .owl-dots button.owl-dot:focus {
+    outline: none;
+}
+#carousel-1 .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+#carousel-1 .owl-nav button span {
+    font-size: 70px;    
+    position: relative;
+    top: -36px;
+}
+#carousel-1 .owl-nav button:focus {
+    outline: none;
+}
+#carousel-1 .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: white;
+    /* position: absolute; */
+    /* top: 14em; */
+}
+#carousel-1 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: white;
+}
+
+
+/* slide-1 end */
+
+#carousel-2 .owl-nav button{
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+#carousel-1 .owl-nav button.owl-prev {
+    left: 0;
+}
+  #carousel-2 .owl-nav button.owl-next {
+    right: 0;
+}
+  
+#carousel-2 .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+#carousel-2 .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+#carousel-2 .owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+#carousel-2 .owl-dots button.owl-dot:focus {
+    outline: none;
+}
+#carousel-2 .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+#carousel-2 .owl-nav button span {
+    font-size: 70px;    
+    position: relative;
+    top: -36px;
+}
+#carousel-2 .owl-nav button:focus {
+    outline: none;
+}
+.heading-1 h1 {
+    color: white;
+    margin-top: 32%;
+}
+.btn{
+    background-color: #E88F2A;
+}
+.btn a{
+    color:black;
+}
+.second{
+    background-color: black;
+    padding-top:84px;
+}
+.heading-2 h3 {
+    text-align: center;
+    margin: auto;
+    padding-top: 54px;
+    color: #E88F2A;
+}
+.heading-second-2 p {
+    margin-top: 49px;
+    width: 84%;
+    color: #E88F2A;
+    font-size: 22px;
+}
+.para-second {
+    color: white;
+    width: 68%;
+}
+.cake img {
+    width: 100%;
+    height: 66vh;
+    margin-top: 49px;
+    border: 2px solid #E88F2A;
+}
+.third{
+    background-color: black;
+    padding:39px;
+}
+.image img {
+    width: 100%;
+    height: 51vh;
+    transition: transform 1s;
+    border: 2px solid #E88F2A;
+}
+.image img:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.image h5{
+    color:white;
+    margin-top:2em;
+
+}
+.image p{
+    color:#E88F2A;
+}
+.forth{
+    background-color: black;
+    padding:4em;
+}
+.image-4 img {
+    width: 100%;
+    height: 90vh;
+    margin-top:6em;
+    
+}
+.heading-4 h5{
+    color: white;
+    text-align: center;
+    margin-top:5%;
+}
+.card {
+    border: 2px solid white;
+    height: 260px;
+    width: 100%;
+    margin-top: 22px;
+    border-radius: 21px;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.rating {
+    word-spacing: 7px;
+    margin-left: 16px;
+}
+.rating i{
+    color:#E88F2A;
+    margin-top:22px;
+}
+.feedback p{
+    color:white;
+    margin-top:22px;
+    margin-left:17px;
+}
+.feedback-1{
+    display: flex;
+}
+.feedback img {
+    width: 17% !important;
+    height: 62px;
+    margin-top:22px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.feedback h5 {
+    display: flex;
+    margin-top: 11%;
+    margin-left: 14px;
+    color: white;
+}
+.fifth{
+    background-color: black;
+    padding-top:10%;
+}
+.our-blog h5{
+    margin-top:10%;
+    margin-left:5px;
+    color:white;
+}
+.button-5 {
+    margin-top: 25px;
+    margin-left: 81%;
+}
+.bake-image {
+    display:flex;
+    margin-top:27px;
+    border:2px solid #E88F2A;
+}
+.bake-image h5 {
+    margin-top: 5%;
+    width: 60%;
+    font-size: 15px;
+    margin-left: 24px;
+    color: white;
+}
+.bake-image img {
+    width: 44%;
+    height: 42vh;
+}
+.bake-image h5 {
+    margin-top: 5%;
+    width: 66%;
+    font-size: 15px;
+    margin-left: 24px;
+    color: white;
+}
+.bake-image img {
+    width: 40%;
+    height: 42vh;
+}
+.para p{
+    font-size: 12px;
+    width: 88%;
+    margin-left: 25px;
+    color: white;
+}
+.sixth{
+    background-color: black;
+    margin-top:0px;
+    padding-bottom:5em;
+  
+}
+.heading-sixth{
+    margin-top:5em;
+    color:white;
+    text-align:center;
+}
+.instagram {
+    display: flex;
+    border: 1px solid #E88F2A;
+    width: 12%;
+    margin-top: 2em;
+    height: 29px;
+    margin-left: 45%;
+}
+.instagram i {
+    font-size: 20px;
+    color: #E88F2A;
+    margin-left: 17px;
+    margin-top: 4px;
+}
+.instagram p{
+    color:#E88F2A;
+    margin-left:8px;
+}
+.image-sixth-1{
+    margin-top:30px;
+    width:100%;
+    height:55vh;
+    border: 2px solid #E88F2A;
+
+}
+.seven{
+    background-color:;
+    padding-top:5em;
+    padding-bottom:5em;
+}
+.Get-in-touch h2 {
+    margin-top: 72px;
+    margin-left: 53px;
+}
+.Get-in-touch h4{
+    margin-left:58px;
+}
+.location p{
+    margin-left:5px;
+}
+.location i{
+    margin-left:58px;
+    margin-top:4px;
+}
+.Contact p{
+    margin-left:5px;
+}
+.Contact i{
+    margin-left:58px;
+    margin-top:5px;
+}
+.para-seven{
+    color:black;
+    margin-top:22%;
+    height:18em;
+    border:2px solid black;
+    background-color: #000;
+}
+.para-seven p {
+    color: #fff;
+    width: 83%;
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.para-seven i{
+    margin-left:22px;
+    color:#E88F2A;
+}
+.contact i{
+    margin-top:6px;
+    color:black;
+    margin-left:53px;
+}
+.contact p{
+    color:black;
+    margin-left:53px;
+}
+.email i{
+    margin-top:6px;
+    color:black;
+    margin-left:60px;
+}
+.email p{
+    color:black;
+    margin-left:6px;
+}
+.quick-link h2{
+    margin-top:72px;
+    margin-left:40px;
+}
+.list-unstyled a{
+    color:#000;
+    margin-left:44px;
+}
